@@ -1,5 +1,5 @@
 {
-  "name": "@matt-oc/mqtt-obd",
+  "name": "mqtt-obd",
   "version": "1.0.0",
   "description": "A sample application built that shows how MQTT could be used to communicate between rasp pi and server.",
   "main": "server.js",
