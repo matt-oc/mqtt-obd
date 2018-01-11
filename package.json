@@ -1,15 +1,15 @@
 {
-  "name": "@risingstack/mqtt-garage-opener-example",
+  "name": "@matt-oc/mqtt-obd",
   "version": "1.0.0",
-  "description": "A sample application built that shows how MQTT could be used to manage a garage door system.",
-  "main": "controller.js",
+  "description": "A sample application built that shows how MQTT could be used to communicate between rasp pi and server.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "style": "standard"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RisingStack/mqtt-garage-opener-example.git"
+    "url": "git+https://github.com/matt-oc/mqtt-obd.git"
   },
   "author": "",
   "license": "ISC",
