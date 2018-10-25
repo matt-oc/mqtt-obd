@@ -1,4 +1,4 @@
-// garage.js
+// server.js
 const mqtt = require('mqtt')
 const client = mqtt.connect('mqtt://broker.hivemq.com')
 
@@ -37,13 +37,13 @@ function printTest (message) {
   if (message) {
     console.log('worked')
 
-    // simulate door closed after 5 seconds (would be listening to hardware)
+    // simulate after 5 seconds (would be listening to hardware)
 
   }
 }
 
 /**
- * Want to notify controller that garage is disconnected before shutting down
+ * Want to notify controller that disconnected before shutting down
  */
 function handleAppExit (options, err) {
   if (err) {
